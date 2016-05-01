@@ -149,7 +149,7 @@ angular.module('starter.controllers-timeline', [])
             // add cancel code..
           },
        buttonClicked: function() {
-          window.location.href = "http://localhost:8101/#/geofences";
+          window.location.href = "https://altalaunch-props.herokuapp.com";
        },
        destructiveButtonClicked: function() {
          deletePost(postId);
